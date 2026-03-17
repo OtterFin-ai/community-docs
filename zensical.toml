@@ -44,10 +44,30 @@ Copyright &copy; 2026 OtterFin
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#   { "Get started" = "index.md" },
-#   { "Markdown in 5min" = "markdown.md" },
-# ]
+nav = [
+  { "Overview" = "index.md" },
+  { "Installation" = [
+    { "Getting Started" = "installation/index.md" },
+    { "Synology NAS" = "installation/synology.md" },
+    { "Email" = "installation/email.md" },
+  ]},
+  { "Migrating" = [
+    { "Overview" = "migrating/index.md" },
+    { "From Banktivity" = "migrating/banktivity.md" },
+  ]},
+  { "Features" = [
+    { "Accounts" = "features/accounts.md" },
+    { "Transactions" = "features/transactions.md" },
+    { "Household" = "features/household.md" },
+    { "Budget" = "features/budget.md" },
+    { "Reports" = "features/reports.md" },
+    { "Categories" = "features/categories.md" },
+    { "Tags" = "features/tags.md" },
+    { "Multi-Currency" = "features/currencies.md" },
+    { "Import" = "features/import.md" },
+    { "Settings" = "features/settings.md" },
+  ]},
+]
 
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
